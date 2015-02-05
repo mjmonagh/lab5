@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+	<head>
+	<title>Add friend</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link href="css/hci-friends.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+  	  <div class="container">
+  	  	<div>
+  	  		<h1>New Friend</h1>
+  	  	</div>
+  	  	<div>	
+		 	<a href="/">Back to home page</a>
+  	    </div>
+
+	 	<div class="friends">
+			<img src="http://lorempixel.com/400/400/people" class="img-responsive img-rounded" >
+				<h3><a href="#" class="name">{{name}}</a></h3>
+			<p>{{description}}</p>
+	    </div>
+
+	    <a href="/"><input type="submit" id="submitBtn" class="btn btn-default" value="Add the friend"></input></a>
+	 </form>
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/hci-friends.js"></script>
+
+  	</div>
+ 	</body>
+
+ </html>
